@@ -12,4 +12,4 @@ function init()
 }
 window.addEventListener('load', init);'
 
-<script type="text/javascript' src="https://www.google.com/maps?file=api&hl=zh-CN&v=2&key=abcdefg" type="text/javascript"></script>
+<script src="https://www.google.com/maps?file=api&hl=zh-CN&v=2&key=abcdefg" type="js/script.js"></script>
