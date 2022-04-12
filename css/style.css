@@ -3,6 +3,13 @@ body {
   background-color: #CFFFF1;
 }
     
+@media screen and (max-width: 300px)
+{
+    body {
+         background-color : #66CCFF;
+    {
+}
+      
 header {
   background-color: #CCCCFF;
   padding: 6% 10% 6% 6%;
