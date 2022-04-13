@@ -4,7 +4,7 @@ function initMap() {
     var parkingLatLng = new google.maps.LatLng(41.838566078590155, -87.62616905289498)
     var parkingSpot2LatLang = new google.maps.LatLng(41.83747898404313, -87.62616905289498)
     var infoLatLang = new google.maps.LatLng(41.83855433094542, -87.6273903853663);
-    var scienceLatLang = new google.maps.LatLng(41.83712661341855, -87.62704881745186)
+    var reLatLang = new google.maps.LatLng(41.83712661341855, -87.62704881745186)
     const contentString =
         '<h1>Stuart Building</h1>' +
         'Most of my major classes are in this building' +
@@ -23,7 +23,7 @@ function initMap() {
         "https://developers.google.com/maps/documentation/javascript/examples/full/images/beachflag.png";
 
     map = new google.maps.Map(document.getElementById("map"), {
-        center: csLatLang,
+        center: sbLatLang,
         zoom: 18,
     });
     var iconBase = 'https://maps.google.com/mapfiles/kml/shapes/';
@@ -44,7 +44,7 @@ function initMap() {
     });
 
     new google.maps.Marker({
-        position: csLatLang,
+        position: sbLatLang,
         map: map,
         title: "Drag Me!",
         icon: image,
@@ -54,13 +54,13 @@ function initMap() {
     const marker_two = new google.maps.Marker({
         position: infoLatLang,
         map,
-        title: "Copmuter Science Department",
+        title: "Stuart Building",
     });
 
     const scienceMarker = new google.maps.Marker({
-        position: scienceLatLang,
+        position: reLatLang,
         map,
-        title: "Science Deparment",
+        title: "John T. Rettaliata Engineering Center",
     });
 
     marker_two.addListener("click", () => {
