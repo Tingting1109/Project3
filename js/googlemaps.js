@@ -1,4 +1,4 @@
-<script src="https://www.google.com/maps?file=api&hl=zh-CN&v=2&key=abcdefg" type="js/script.js"></script>
+
   var map = new Map2(document.getElementByIdx_x_x("map"),
    {size:GSize(200,200),backgroundColor:"#FF0000"});
 
